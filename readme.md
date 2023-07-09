@@ -1,6 +1,6 @@
 Carrefour is an online groceries store, built using React, MobX, Stripe, and Universal Router. All async imports, saving to localStorage.
 
-Live demo:
+Live demo: https://react-online-groceries-store.vercel.app/
 
 ![Screenshot from 2023-07-09 21-59-09](https://github.com/Vargriym/React-online-groceries-store/assets/102037554/179d4e69-1e43-4e89-9031-1761e55f5693)
 
