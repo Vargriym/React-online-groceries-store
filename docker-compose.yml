@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  react-app:
+    image: ndrean/react-app-superm:build-mobx-ur
+    container_name: react-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # build production with node and copy in nginx html folder
+    # volumes:
+    #   - .:/app
+    #   - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 8080:80
