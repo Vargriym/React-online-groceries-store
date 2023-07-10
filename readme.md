@@ -37,12 +37,12 @@ Based on an object of routes that will be parsed. Not integrated within React (d
 - For route resolving and rendering, `new UniversalRouter(routes).resolve` in **index.js**
 - pass the `store` to the `routes` so every path/action has access to
 
-Using the middleware `next` to pass `{children}` into a menu layout. This is done twice, for general menu, and for the general submenu (nested routes).
+Using the middleware `next` to pass `{children}` into a menu layout. This is done twice, for the general menu, and for the general submenu (nested routes).
 
 ## Component **ProductDetails** with ".dot" notation
 
 
-To be able to `import` two components, I made object with several components:
+To be able to `import` two components, I made an object with several components:
 
 ```js
 const ProductDetails = {
