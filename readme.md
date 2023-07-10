@@ -1,4 +1,4 @@
-Carrefour is an online groceries store, built using React, MobX, Stripe, and Universal Router. All async imports, saving to localStorage.
+Carrefour is an online groceries store, built using React, MobX, Stripe, and Universal Router.
 
 Live demo: https://react-online-groceries-store.vercel.app/
 
