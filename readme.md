@@ -11,11 +11,16 @@
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
     <a href="#Key-Achievements"><strong>Key Achievements</strong></a> ·
-  <a href="#tech-stack"><strong>Tech Stack</strong></a>
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> .
+    <a href="#Live-Demo"><strong>Live Demo</strong></a>
+
   
 </p>
 
 <br/>
+
+## Live Demo
+https://react-online-groceries-store.vercel.app
 
 <!-- ABOUT THE PROJECT -->
 
