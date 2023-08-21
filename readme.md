@@ -1,61 +1,36 @@
-Carrefour is an online groceries store, built using React, MobX, Stripe, and Universal Router.
+<p align="center">
+    <img alt="typing test screenshot" src="https://github.com/Vargriym/React-online-groceries-store/blob/main/252164001-179d4e69-1e43-4e89-9031-1761e55f5693.png">
+    <h1 align="center">Groceries store application</h1>
+  </a>
+</p>
 
-Live demo: https://react-online-groceries-store.vercel.app/
+<p align="center">
+  A groceries store application built with React JS, Mobx and Universal Router.
+</p>
 
-![Screenshot from 2023-07-09 21-59-09](https://github.com/Vargriym/React-online-groceries-store/assets/102037554/179d4e69-1e43-4e89-9031-1761e55f5693)
+<p align="center">
+  <a href="#introduction"><strong>Introduction</strong></a> ·
+    <a href="#Key-Achievements"><strong>Key Achievements</strong></a> ·
+  <a href="#tech-stack"><strong>Tech Stack</strong></a>
+  
+</p>
 
-## Mobx
+<br/>
 
-<https://mobx.js.org/react-integration.html>
+<!-- ABOUT THE PROJECT -->
 
-`yarn add mobx mobx-react-lite`
+## Introduction
 
-- configuration for debugging
+This project aims to provide a convenient and efficient solution for managing and organizing users' grocery shopping experiences.
+It offers a user-friendly interface where you can easily browse through a wide range of products, add them to your virtual shopping cart, and seamlessly proceed to checkout. With features like personalized shopping lists and real-time inventory updates, this project is designed to simplify the user's grocery shopping process and enhance overall satisfaction. 
+## Key Achievements
 
-```js
-// #index.js
-import { configure } from "mobx";
-configure({
-  enforceActions: "always",
-  computedRequiresReaction: true,
-  reactionRequiresObservable: true,
-  observableRequiresReaction: true,
-  disableErrorBoundaries: true,
-});
-```
+Implemented responsive design techniques, resulting in a mobile-friendly website that enhanced accessibility and convenience for users.
 
+## Tech stack
 
-## Universal Router
-
-Based on an object of routes that will be parsed. Not integrated within React (different from React Router)
-
-<https://github.com/kriasoft/universal-router/blob/master/docs/api.md>
-
-- Build a `routes`, array of objects `{path:"/", action:()=>{..}}`.
-- Use a listener on **history**
-- Use `history.push` for ajax on each `<a>` click,
-- For route resolving and rendering, `new UniversalRouter(routes).resolve` in **index.js**
-- pass the `store` to the `routes` so every path/action has access to
-
-Using the middleware `next` to pass `{children}` into a menu layout. This is done twice, for the general menu, and for the general submenu (nested routes).
-
-## Component **ProductDetails** with ".dot" notation
-
-
-To be able to `import` two components, I made an object with several components:
-
-```js
-const ProductDetails = {
-  getDetail: fetch(...),
-  Storage,
-  Info,
-  Nutrition,
-  Details,
-};
-```
-
-## Saving to localStorage
-
-When the app is started with **index.js**, we read localStorage with the IFFE `action(() => store.initCart())()`
-
-The cart is saved to loalStorage in the **Product** component within a `useEffect` with `runInAction`.
+- [React JS]
+- [Vercel]
+- [MobX]
+- [Stripe]
+- [Universal Router]
