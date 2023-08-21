@@ -19,7 +19,7 @@
 
 <br/>
 
-## Live Demo
+## Live demo
 https://react-online-groceries-store.vercel.app
 
 <!-- ABOUT THE PROJECT -->
