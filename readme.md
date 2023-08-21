@@ -29,8 +29,8 @@ Implemented responsive design techniques, resulting in a mobile-friendly website
 
 ## Tech stack
 
-- [React JS]
-- [Vercel]
-- [MobX]
-- [Stripe]
-- [Universal Router]
+- React JS
+- MobX
+- Stripe
+- Universal Router
+- Vercel
