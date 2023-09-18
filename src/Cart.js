@@ -5,8 +5,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import Input from "./Input.js";
 import Button from "./Button.js";
 
-// TODO: Replace with your own publishable key
-const stripeLoadedPromise = loadStripe("pk_test_XXX");
+const stripeLoadedPromise = loadStripe("pk_test_51NoiciB5Gd9yLUsJK2gwSIsIZieAiiDdSUL69EEPjkq8RqzLQxH7XLrwyXax8urISir5qPWK7Fv6hBnqmISgCeNM00EjqRBaJb");
 
 const Cart = observer(({ store }) => {
   const [email, setEmail] = useState("");
@@ -93,10 +92,6 @@ const Cart = observer(({ store }) => {
                 Enter your email and then click on pay and your products will be
                 delivered to you on the same day!
                 <br />
-                <em>
-                  Enter your own Stripe Publishable Key in Cart.js for the
-                  checkout to work
-                </em>
               </p>
               <Input
                 placeholder="Email"
