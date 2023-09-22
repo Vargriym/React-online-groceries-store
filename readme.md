@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="typing test screenshot" src="https://github.com/Vargriym/React-online-groceries-store/blob/main/252164001-179d4e69-1e43-4e89-9031-1761e55f5693.png">
+    <img alt="typing test screenshot" src="https://github.com/Vargriym/React-online-groceries-store/blob/main/cover.png">
     <h1 align="center">Groceries store application</h1>
   </a>
 </p>
